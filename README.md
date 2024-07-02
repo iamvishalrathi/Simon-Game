@@ -9,7 +9,7 @@ Each successful replication advances you to the next level.
 Be careful! A wrong move will end the game.
 
 ## Screenshot
-<img src="simon.png" alt="Simon">
+<img src="simon-sns.png" alt="Simon">
 
 ## Technologies Used
 - HTML
