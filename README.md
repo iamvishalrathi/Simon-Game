@@ -15,5 +15,5 @@ Be careful! A wrong move will end the game.
 - JavaScript
 
 ## Author
-Vishal Kumar
-rajatrathi029@gmail.com
+- Vishal Kumar
+- rajatrathi029@gmail.com
