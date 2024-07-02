@@ -83,7 +83,7 @@ function checkAns(idx){
         //Ganme Over Signal
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function(){
-            document.querySelector("body").style.backgroundColor="white";
+            document.querySelector("body").style.backgroundColor="#808080";
         },150);
 
         reset();
