@@ -1,3 +1,4 @@
+<img src="simon.png" alt="Simon">
 # SIMON GAME
 Welcome to Simon Game, a classic memory game that will test and enhance your memory and concentration skills. The objective is simple: remember the sequence of colored boxes that light up and replicate it to advance through the levels. Challenge yourself or compete with friends to see who can reach the highest level!
 
