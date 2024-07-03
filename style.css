@@ -23,10 +23,11 @@ body{
     z-index: 1;
     border: 2px solid black;
     background-color: wheat;
-    width: fit-content;
-    height: fit-content;
+    width: 50%;
+    height: 50%;
     border-radius: 15px;
-    padding: 2%;
+    padding: 0% 5% 5% 5%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
     position: absolute;
     top:0;
@@ -39,7 +40,7 @@ body{
 #rules{
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 1.75rem;
 }
 
 .btn{

@@ -101,12 +101,17 @@ function reset(){
 //i button
 let i = document.querySelector(".i");
 let howto = document.querySelector(".howto");
+let btncontainer = document.querySelector(".btn-container");
 i.addEventListener("mouseover", function(){
     howto.style.display= "block";
     document.querySelector("body").style.backgroundColor="#36454F";
+    btncontainer.style.display= "none";
+    h3.style.display= "none";
 });
 i.addEventListener("mouseout", function(){
     howto.style.display= "none";
     document.querySelector("body").style.backgroundColor="#808080";
+    btncontainer.style.display= "flex";
+    h3.style.display= "block";
 });
 

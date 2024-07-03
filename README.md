@@ -3,8 +3,9 @@ Welcome to Simon Game, a classic memory game that will test and enhance your mem
 
 ## How to Play
 Press the "Any Key" to initiate the game.
-Watch and remember the sequence of coloured boxes that light up.
-Replicate the sequence by clicking on the boxes in the correct order.
+After the game lights up a color, you need to click the same color using your mouse.
+The game will then lights up another color.
+Your task is to click on the colors in the exact order shown, repeating the sequence from the beginning each time with the added color.
 Each successful replication advances you to the next level.
 Be careful! A wrong move will end the game.
 
