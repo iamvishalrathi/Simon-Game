@@ -97,3 +97,16 @@ function reset(){
     userSeq=[];
     level=0;
 }
+
+//i button
+let i = document.querySelector(".i");
+let howto = document.querySelector(".howto");
+i.addEventListener("mouseover", function(){
+    howto.style.display= "block";
+    document.querySelector("body").style.backgroundColor="#36454F";
+});
+i.addEventListener("mouseout", function(){
+    howto.style.display= "none";
+    document.querySelector("body").style.backgroundColor="#808080";
+});
+
