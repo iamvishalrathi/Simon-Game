@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Game</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <h1>Simon Game</h1>
     <button class="i">i</button>
     <div class="howto">
+        <span class="close">&times;</span>
         <h1>How to Play</h1>
         <ol id="rules">
             <li>Press the "Any Key" to initiate the game.</li>
             <li>After the game lights up a color, you need to click the same color using your mouse.</li>
             <li>The game will then lights up another color.</li>
-            <li>Your task is to click on the colors in the exact order shown, repeating the sequence from 
+            <li>Your task is to click on the colors in the exact order shown, repeating the sequence from
                 the beginning each time with the added color.</li>
             <li>Each successful replication advances you to the next level.</li>
             <li>Be careful! A wrong move will end the game.</li>
@@ -26,7 +30,7 @@
     <div class="btn-container">
         <div class="line1">
             <!-- id are set to get button colour in js file -->
-            <div class="btn red" id="red" type="button"></div> 
+            <div class="btn red" id="red" type="button"></div>
             <div class="btn yellow" id="yellow" type="button"></div>
         </div>
         <div class="line2">
@@ -36,4 +40,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

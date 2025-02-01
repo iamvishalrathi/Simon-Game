@@ -1,24 +1,43 @@
-body{
+body {
     text-align: center;
     background-color: #808080;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.i{
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.i {
     border-radius: 50%;
     background-color: #236FB9;
     border: none;
     color: white;
     height: 30px;
     width: 30px;
-    font-size:large;
+    font-size: large;
     font-family: monospace;
     cursor: pointer;
-}
-.i:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 1rem;
 }
 
-.howto{
+.i:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.howto {
     display: none;
     z-index: 1;
     border: 2px solid black;
@@ -26,52 +45,69 @@ body{
     width: 50%;
     height: 50%;
     border-radius: 15px;
-    padding: 0% 5% 5% 5%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
+    padding: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#rules{
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#rules {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
-.btn{
-    height: 200px;
-    width: 200px;
+.btn {
+    height: 150px;
+    width: 150px;
     border-radius: 20%;
     border: 10px solid black;
     margin: 1rem;
+    cursor: pointer;
+    transition: transform 0.1s;
 }
 
-.btn-container{
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    max-width: 600px;
 }
 
-.red{
-    background-color: rgba(213,80,117,255);
-}
-.green{
-    background-color: rgba(88,160,185,255);
-}
-.purple{
-    background-color: rgba(119,148,248,255);
-}
-.yellow{
-    background-color: rgba(250,144,59,255);
+.red {
+    background-color: rgba(213, 80, 117, 255);
 }
 
-.flash{
+.green {
+    background-color: rgba(88, 160, 185, 255);
+}
+
+.purple {
+    background-color: rgba(119, 148, 248, 255);
+}
+
+.yellow {
+    background-color: rgba(250, 144, 59, 255);
+}
+
+.flash {
     background-color: white;
 }
-.userflash{
+
+.userflash {
     background-color: green;
 }
